@@ -2,6 +2,8 @@
 
 This is a simple web application built with Flask and HTMX that demonstrates GitHub OAuth authentication and basic user management.
 
+![Image](https://github.com/user-attachments/assets/6819b81c-d0ff-46d2-944a-59a19caba04c)
+
 ## Features
 
 - GitHub OAuth authentication
