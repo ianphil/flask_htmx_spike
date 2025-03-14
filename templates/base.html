@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flask + htmx Spike</title>
+    <script src="https://unpkg.com/htmx.org@1.9.10"></script>
+</head>
+<body>
+    <h1>Welcome to the Spike</h1>
+    <button hx-get="/update-section" hx-target="#content" hx-swap="innerHTML">
+        Update Content
+    </button>
+    <div id="content">
+        <p>Initial content goes here.</p>
+    </div>
+</body>
+</html>
