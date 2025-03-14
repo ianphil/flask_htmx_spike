@@ -7,6 +7,11 @@
 </head>
 <body>
     <h1>Welcome to the Spike</h1>
+    {% if user %}
+        <p>Hello, {{ user }}! <a href="/logout">Logout</a></p>
+    {% else %}
+        <p><a href="/login">Login with GitHub</a></p>
+    {% endif %}
     <button hx-get="/update-section" hx-target="#content" hx-swap="innerHTML">
         Update Content
     </button>
